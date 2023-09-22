@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melusi Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,800&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="file:///C:/Users/Melusi%20Demadema/Documents/Fontawesomne/fontawesome-free-6.4.2-web/css/all.css">
+ <script src="https://kit.fontawesome.com/4d12c1d1c8.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<div id="header">
+
+<div class="container">
+    <nav>
+        <a href="#about"><img src="images/log.png" class="logo" href="" ></a>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>Software Engineer</p>
+        <h1>Hello I am <span>Melusi Francis Demadema</span><br> From Zimbabwe</h1>
+
+    </div>
+</div>
+
+
+
+</div>
+
+<!--About-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1"><img src="images/official.png" ></div>
+            <div class="about-col2"> 
+                <h1 class="subtitle"><span>A</span>bout Me</h1>
+                <p>Hello! I'm Melusi Francis Demadema, a passionate and dedicated software engineer. 
+                    I bring a strong technical background and a genuine love for creating innovative software solutions. 
+                     My journey as a software engineer has exposed me to various programming languages and technologies, 
+                     allowing me to adapt and thrive in dynamic environments. I currently specialize in front end web development,
+                      through use of HTML, CSS and Java Script, and I am constantly expanding my skills to stay up to date with the latest industry trends. 
+                      What sets me apart is my ability to translate complex requirements into efficient and scalable code. 
+                      I have a keen eye for detail and a knack for problem-solving, which enables me to deliver robust and user-friendly software applications. 
+                      I am a firm believer in the importance of long-term sustainability and collaboration within a team. 
+                       As a continuous learner, when I'm not coding, you can find me exploring new technologies, attending tech conferences, or contributing to open-source projects. 
+                       I am driven by a desire to make a difference in the world through technology and to empower individuals and businesses with efficient and reliable software solutions. 
+                       I am excited about the possibilities that lie ahead and look forward to collaborating with like-minded professionals to create exceptional software experiences. 
+                       If you're interested in discussing potential opportunities or have any questions, please feel free to reach out.
+                        Let's connect and make an impact together!</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p> 
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Front-End Web Developer</span><br>Designer</li>
+                                <li><span>Front-End Web Developer</span><br>Designer</li>
+                                <li><span>Back-End Web Developer</span><br>Designer</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Front-End Web Developer</span><br>1 year Experience</li>
+                                <li><span>Data Analyst</span><br>No Experience  Yet</li>
+                                <li><span>Back-End Development</span><br>No Experience Yet</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>St Francis Of Assisi High School</span><br>Zimsec 4 (8 O-level passes) AND a Hexco Certificate for ICTF AND ICT</li>
+                                <li><span>Telone Centre For Learning </span><br>Diploma in Software Engineering </li>
+                                <li><span>University of Witwatersand(WITS)</span><br>Bsc Under-Graduate  In Information Egnineering</li>
+                            </ul>
+                        </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!---SERVICES-->
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> <span>M</span>y Services</h1>
+
+        <div class="services-list">
+           
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2><span>F</span>ront <span>E</span>nd <span>W</span>eb <span>D</span>evelopment</h2>
+                <p>Crafting captivating digital experiences through front-end web development using HTML, CSS and Java-Script.
+                    Elevate your online presence with me as your front-end wizard. Let's bring your vision to life!</p>
+                     <a href="images/boom.mp4">Learn More <i class="fa-solid fa-up-right-from-square"></i></a>
+
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2><span>B</span>ack-end<span>D</span>eveloper</h2>
+                <p>I'm continuously expanding my knowledge and skills In Java and Python.</p>
+                     <a href="#">Learn More <i class="fa-solid fa-up-right-from-square"></i></a>
+                     
+
+            </div>
+            <div>
+                <i class="fa-solid fa-computer"></i>
+                <h2> <span>F</span>lyer <span>D</span>esigning</h2>
+                <p>Elevate your message with stunning flyer designs. Let me turn your ideas into eye-catching reality. 
+                    Explore my portfolio and let's create together!</p>
+                     <a href="images/Fefe.png">Learn More<i class="fa-solid fa-up-right-from-square"></i></a>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+ <!---Portfolio-->
+
+ <div id="portfolio"> 
+    <div class="container">
+        <h1 class="sub-title"> <span>M</span>y Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg" width="400" height="300">
+                <div class="layer">
+                    <h3>Web Development</h3>
+                    <p>Coming Soon!</p>
+
+                          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-2.jpg" width="400" height="300" >
+                <div class="layer">
+                    <h3>Flyer Designing</h3> 
+                    <p>Coming Soon!</p>
+
+                          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                          
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-3.jpg" width="400" height="300">
+                <div class="layer">
+                    <h3>Application Development</h3>
+                    <p>Coming Soon!</p>
+                          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                          
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See More</a>
+ </div>
+
+ <!--CONTACT INF0RMATION-->
+ <div id="contact">
+    <div class="container">
+
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>melusidemadema@gmail.com</p>
+                <p><i class="fa-solid fa-mobile"></i>0780696221</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/melusi.demadema/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Melusi4real"><span><i class="fa-brands fa-x-twitter"></i></span></a>
+                    <a href="https://www.linkedin.com/in/melusi-demadema-a837641b0/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/MelusiFD"><span><i class="fa-brands fa-github"></i></span></a>
+                    <a href="https://www.instagram.com/melusi_f.d/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/Melusi Francis Demadema CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="e-mail" name="Email" placeholder="Your E-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button class="btn btn2">Submit</button>
+                </form> 
+                <span id="msg">Successfully Sent</span>
+            </div>
+      </div>
+
+    </div>
+    <div class="copyright">
+        <p>copyright © <i class="fa-solid fa-m"></i>elusi. Made by Melusi Demadema</p>
+        
+    </div>
+ </div>
+
+
+
+
+
+
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+   
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link"); 
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab"); 
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+    
+</script>
+
+<script>
+    var sidemenu =document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+        
+
+
+    } 
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyE9d5y6T-pMbirbGle1l1fPbl3hih2x3Oqt3AjU0IZ7ehfhfEKvk4Lsy0zPvLQOZsI/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Successfully Sent"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000) 
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    
+</body>
+</html>
