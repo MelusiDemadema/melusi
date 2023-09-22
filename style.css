@@ -38,6 +38,8 @@ nav{
     width: 150px;
     height: 90px;
     color:red;
+    position: relative;
+    left: -50px;
 }
 nav ul li{
     display:inline-block;
@@ -431,6 +433,8 @@ nav .fa-solid{
 
 
 @media only screen and (max-width: 600px){
+
+
   
     #header{
         background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/official.png);
